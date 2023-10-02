@@ -21,7 +21,8 @@ void draw()
     x = x + 140;
     y =20;
   }
-  text("Total : " + total, 330,750);
+  textSize(40);
+  text("Total : " + total, 300,750);
 }
 void mousePressed()
 {
