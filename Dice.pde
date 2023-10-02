@@ -84,7 +84,7 @@ class Die //models one single dice cube
     fill(255);
     stroke(0);
     strokeWeight(4);
-    rect(myX,myY,100,100);
+    rect(myX,myY,100,100,20);
     roll();
   }
 }
